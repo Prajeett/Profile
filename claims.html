@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrifty Claims</title>
+</head>
+<body>
+    <h1 style="color: blue;">Thrifty</h1>
+    <h3 style="color: blue;">Car & Truck Rental</h3>
+    <h3>Force Charge Form</h3>
+    <hr>
+    <p>General Details</p>
+    <form action="/save" method="post" >
+        <p>Employee Name</p>
+        <input type="text" id="employee_name">
+        <p>RA No.</p>
+        <input type="text" id="ra_no">
+
+        <p>Reason for Force Charge</p>
+        <hr>
+        <input type="checkbox" name="Damage" id="">
+        <span>Damage</span>
+        <div>
+        <input type="checkbox" name="Overdue" id="">
+        <span>Overdue Rental</span>
+        </div>
+        <div>
+            <input type="checkbox" name="other" id="">
+            <span>Other</span>
+        </div>
+
+        
+        <div>
+            <label for="myfile">File Upload:</label>
+            <input type="file" id="myfile" name="myfile">
+        </div>
+        
+
+        <div>
+            <input type="submit" value="Review" id="">
+            <input type="submit" name="Submit" id="">
+        </div>
+    </form>
+    
+</body>
+</html>
